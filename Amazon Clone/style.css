@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #010101 ;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    height:43px;
+    width: 142px;
+}
+
+.logo {
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 43px;
+    width: 100%;
+    margin-left: 15px;
+    
+}
+
+.border {
+    border: 1px solid transparent;
+    padding: 6px;
+}
+
+.border:hover {
+    border: 1px solid #FFFFFF;
+}
+
+
+/* starting address */
+
+.nav-add {
+    line-height: .95rem;
+    word-spacing: normal;
+}
+
+.add-from {
+    color: #A9A7B6;
+    font-size: 0.70rem;
+    margin-left: 15px;
+}
+
+.add-to {
+    color: #FFFFFF;
+    font-size: 0.90rem;
+    margin-left: 3px;
+    font-weight: 500;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* Searchbar started */
+
+.nav-search {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #E6E6E6;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: .90rem;
+    padding-left: 10px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    background-color: #F3A847;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.nav-right-search-select {
+    background-color: #000000;
+    color: aliceblue;
+    padding: 0px;
+    font-weight: 530;
+    border: none;
+}
+
+/* Navbar right name and accounts */
+
+.nav-r-name {
+    color: #FFFFFF;
+    font-size: 0.70rem;
+    text-align: left;
+}
+
+.nav-r-acc {
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    font-weight: 550;
+}
+
+/* Navbar order */
+
+.nav-right-order {
+    width: 70px;
+    height: 35px;
+}
+
+.nav-right-return {
+    font-size: 0.70rem;
+    font-weight: 500;
+
+}
+
+.nav-right-order {
+    color: #FFFFFF;
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+
+/* Navbar Cart */
+
+.cart-icon i {
+    font-size: 30px;
+}
+
+.cart-icon {
+    font-size: .90rem; 
+    font-weight: 600;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.panel-ops{
+    width: 75%;
+    font-size: .75rem;
+  
+}
+
+.panel-ops ul li {
+    display: inline;
+    margin-left: 15px;  
+}
+
+.panel-ops ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.panel-ops ul li a:hover {
+    text-decoration: underline;
+    color: #F3A847;
+}
+
+.panel-right{
+    font-weight: bold;
+}
+
+.hero-section {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.hero-message {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 70%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-message p {
+    font-size: .85rem;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #cdd3d3;
+}
+
+.shop-box {
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.shop-box-content {
+    padding: 15px     ;
+}
+
+.shop-box-content a {
+    text-decoration: none;
+    color: rgba(27, 151, 155, 0.945);
+}
+
+.shop-box-content a:hover{
+    text-decoration: underline;
+    color: #F3A847;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.box-footer p {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-top: 15px;
+}
